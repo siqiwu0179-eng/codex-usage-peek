@@ -1,0 +1,182 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000001 /* AppSettings.swift */; };
+		A10000000000000000000002 /* CodexAppServerProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000002 /* CodexAppServerProvider.swift */; };
+		A10000000000000000000003 /* CodexUsagePeekApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000003 /* CodexUsagePeekApp.swift */; };
+		A10000000000000000000004 /* EdgePanelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000004 /* EdgePanelController.swift */; };
+		A10000000000000000000005 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000005 /* SettingsView.swift */; };
+		A10000000000000000000006 /* UsageCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000006 /* UsageCardView.swift */; };
+		A10000000000000000000007 /* UsageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000007 /* UsageStore.swift */; };
+		A10000000000000000000008 /* CodexRateLimitParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000008 /* CodexRateLimitParser.swift */; };
+		A10000000000000000000009 /* UsageSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000009 /* UsageSnapshot.swift */; };
+		A1000000000000000000000A /* CodexUsageWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000A /* CodexUsageWidget.swift */; };
+		A1000000000000000000000B /* UsageSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000009 /* UsageSnapshot.swift */; };
+		A1000000000000000000000C /* CodexUsageWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000C /* CodexUsageWidget.appex */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A1000000000000000000000D /* ChatGPTBrandLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000011 /* ChatGPTBrandLogoView.swift */; };
+		A1000000000000000000000E /* ChatGPTBrandLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000011 /* ChatGPTBrandLogoView.swift */; };
+		A1000000000000000000000F /* AppIcon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000012 /* AppIcon.xcassets */; };
+		A10000000000000000000010 /* BrandAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000013 /* BrandAssets.xcassets */; };
+		A10000000000000000000011 /* BrandAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000013 /* BrandAssets.xcassets */; };
+		A10000000000000000000012 /* AppIcon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000012 /* AppIcon.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A30000000000000000000001 = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A40000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A50000000000000000000002;
+			remoteInfo = CodexUsageWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A60000000000000000000001 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A1000000000000000000000C /* CodexUsageWidget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A20000000000000000000001 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		A20000000000000000000002 /* CodexAppServerProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodexAppServerProvider.swift; sourceTree = "<group>"; };
+		A20000000000000000000003 /* CodexUsagePeekApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodexUsagePeekApp.swift; sourceTree = "<group>"; };
+		A20000000000000000000004 /* EdgePanelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdgePanelController.swift; sourceTree = "<group>"; };
+		A20000000000000000000005 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A20000000000000000000006 /* UsageCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageCardView.swift; sourceTree = "<group>"; };
+		A20000000000000000000007 /* UsageStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageStore.swift; sourceTree = "<group>"; };
+		A20000000000000000000008 /* CodexRateLimitParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodexRateLimitParser.swift; sourceTree = "<group>"; };
+		A20000000000000000000009 /* UsageSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageSnapshot.swift; sourceTree = "<group>"; };
+		A2000000000000000000000A /* CodexUsageWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodexUsageWidget.swift; sourceTree = "<group>"; };
+		A2000000000000000000000B /* Codex Usage Peek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Codex Usage Peek.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2000000000000000000000C /* CodexUsageWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CodexUsageWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2000000000000000000000D /* CodexUsagePeek-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CodexUsagePeek-Info.plist"; sourceTree = "<group>"; };
+		A2000000000000000000000E /* CodexUsageWidget-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CodexUsageWidget-Info.plist"; sourceTree = "<group>"; };
+		A2000000000000000000000F /* CodexUsagePeek.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CodexUsagePeek.entitlements; sourceTree = "<group>"; };
+		A20000000000000000000010 /* CodexUsageWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CodexUsageWidget.entitlements; sourceTree = "<group>"; };
+		A20000000000000000000011 /* ChatGPTBrandLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGPTBrandLogoView.swift; sourceTree = "<group>"; };
+		A20000000000000000000012 /* AppIcon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AppIcon.xcassets; sourceTree = "<group>"; };
+		A20000000000000000000013 /* BrandAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = BrandAssets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A70000000000000000000001 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		A70000000000000000000002 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A80000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A80000000000000000000002 /* Sources */,
+				A80000000000000000000005 /* Widget */,
+				A80000000000000000000006 /* Config */,
+				A80000000000000000000008 /* Assets */,
+				A80000000000000000000007 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A80000000000000000000002 /* Sources */ = {isa = PBXGroup; children = (A80000000000000000000003 /* CodexUsageCore */, A80000000000000000000004 /* CodexUsagePeek */, ); path = Sources; sourceTree = "<group>"; };
+		A80000000000000000000003 /* CodexUsageCore */ = {isa = PBXGroup; children = (A20000000000000000000011 /* ChatGPTBrandLogoView.swift */, A20000000000000000000008 /* CodexRateLimitParser.swift */, A20000000000000000000009 /* UsageSnapshot.swift */, ); path = CodexUsageCore; sourceTree = "<group>"; };
+		A80000000000000000000004 /* CodexUsagePeek */ = {isa = PBXGroup; children = (A20000000000000000000001 /* AppSettings.swift */, A20000000000000000000002 /* CodexAppServerProvider.swift */, A20000000000000000000003 /* CodexUsagePeekApp.swift */, A20000000000000000000004 /* EdgePanelController.swift */, A20000000000000000000005 /* SettingsView.swift */, A20000000000000000000006 /* UsageCardView.swift */, A20000000000000000000007 /* UsageStore.swift */, ); path = CodexUsagePeek; sourceTree = "<group>"; };
+		A80000000000000000000005 /* Widget */ = {isa = PBXGroup; children = (A2000000000000000000000A /* CodexUsageWidget.swift */, ); path = Widget; sourceTree = "<group>"; };
+		A80000000000000000000006 /* Config */ = {isa = PBXGroup; children = (A2000000000000000000000D /* CodexUsagePeek-Info.plist */, A2000000000000000000000E /* CodexUsageWidget-Info.plist */, A2000000000000000000000F /* CodexUsagePeek.entitlements */, A20000000000000000000010 /* CodexUsageWidget.entitlements */, ); path = Config; sourceTree = "<group>"; };
+		A80000000000000000000007 /* Products */ = {isa = PBXGroup; children = (A2000000000000000000000B /* Codex Usage Peek.app */, A2000000000000000000000C /* CodexUsageWidget.appex */, ); name = Products; sourceTree = "<group>"; };
+		A80000000000000000000008 /* Assets */ = {isa = PBXGroup; children = (A20000000000000000000012 /* AppIcon.xcassets */, A20000000000000000000013 /* BrandAssets.xcassets */, ); path = Assets; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A50000000000000000000001 /* CodexUsagePeek */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB0000000000000000000001 /* Build configuration list for PBXNativeTarget "CodexUsagePeek" */;
+			buildPhases = (A90000000000000000000001 /* Sources */, A70000000000000000000001 /* Frameworks */, A70000000000000000000003 /* Resources */, A60000000000000000000001 /* Embed App Extensions */, );
+			buildRules = ();
+			dependencies = (AA0000000000000000000001 /* PBXTargetDependency */, );
+			name = CodexUsagePeek;
+			productName = CodexUsagePeek;
+			productReference = A2000000000000000000000B /* Codex Usage Peek.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A50000000000000000000002 /* CodexUsageWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB0000000000000000000002 /* Build configuration list for PBXNativeTarget "CodexUsageWidget" */;
+			buildPhases = (A90000000000000000000002 /* Sources */, A70000000000000000000002 /* Frameworks */, A70000000000000000000004 /* Resources */, );
+			buildRules = ();
+			dependencies = ();
+			name = CodexUsageWidget;
+			productName = CodexUsageWidget;
+			productReference = A2000000000000000000000C /* CodexUsageWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A40000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2660;
+				LastUpgradeCheck = 2660;
+				TargetAttributes = {
+					A50000000000000000000001 = {CreatedOnToolsVersion = 26.6; SystemCapabilities = {com.apple.ApplicationGroups.Mac = {enabled = 1; }; }; };
+					A50000000000000000000002 = {CreatedOnToolsVersion = 26.6; SystemCapabilities = {com.apple.ApplicationGroups.Mac = {enabled = 1; }; }; };
+				};
+			};
+			buildConfigurationList = AB0000000000000000000003 /* Build configuration list for PBXProject "CodexUsagePeek" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = zh_CN;
+			hasScannedForEncodings = 0;
+			knownRegions = (zh_CN, Base, );
+			mainGroup = A80000000000000000000001;
+			productRefGroup = A80000000000000000000007 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (A50000000000000000000001 /* CodexUsagePeek */, A50000000000000000000002 /* CodexUsageWidget */, );
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A70000000000000000000003 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (A1000000000000000000000F /* AppIcon.xcassets in Resources */, A10000000000000000000010 /* BrandAssets.xcassets in Resources */, ); runOnlyForDeploymentPostprocessing = 0; };
+		A70000000000000000000004 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000011 /* BrandAssets.xcassets in Resources */, A10000000000000000000012 /* AppIcon.xcassets in Resources */, ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A90000000000000000000001 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000001, A10000000000000000000002, A10000000000000000000003, A10000000000000000000004, A10000000000000000000005, A10000000000000000000006, A10000000000000000000007, A10000000000000000000008, A10000000000000000000009, A1000000000000000000000D, ); runOnlyForDeploymentPostprocessing = 0; };
+		A90000000000000000000002 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A1000000000000000000000A, A1000000000000000000000B, A1000000000000000000000E, ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA0000000000000000000001 /* PBXTargetDependency */ = {isa = PBXTargetDependency; target = A50000000000000000000002 /* CodexUsageWidget */; targetProxy = A30000000000000000000001; };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AC0000000000000000000001 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {CLANG_ENABLE_MODULES = YES; DEBUG_INFORMATION_FORMAT = dwarf; ENABLE_TESTABILITY = YES; GCC_OPTIMIZATION_LEVEL = 0; MACOSX_DEPLOYMENT_TARGET = 13.0; ONLY_ACTIVE_ARCH = YES; SDKROOT = macosx; SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; SWIFT_VERSION = 5.0; }; name = Debug; };
+		AC0000000000000000000002 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {CLANG_ENABLE_MODULES = YES; DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; MACOSX_DEPLOYMENT_TARGET = 13.0; SDKROOT = macosx; SWIFT_COMPILATION_MODE = wholemodule; SWIFT_OPTIMIZATION_LEVEL = "-O"; SWIFT_VERSION = 5.0; }; name = Release; };
+		AC0000000000000000000003 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_ENTITLEMENTS = Config/CodexUsagePeek.entitlements; CODE_SIGN_STYLE = Automatic; COMBINE_HIDPI_IMAGES = YES; CURRENT_PROJECT_VERSION = 6; DEVELOPMENT_TEAM = A2252KUR2V; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = "Config/CodexUsagePeek-Info.plist"; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks"; MARKETING_VERSION = 0.1.2; PRODUCT_BUNDLE_IDENTIFIER = com.siqi.codexusagepeek.v2; PRODUCT_NAME = "Codex Usage Peek"; REGISTER_APP_GROUPS = YES; SKIP_INSTALL = NO; SUPPORTED_PLATFORMS = macosx; SWIFT_EMIT_LOC_STRINGS = YES; }; name = Debug; };
+		AC0000000000000000000004 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_ENTITLEMENTS = Config/CodexUsagePeek.entitlements; CODE_SIGN_STYLE = Automatic; COMBINE_HIDPI_IMAGES = YES; CURRENT_PROJECT_VERSION = 6; DEVELOPMENT_TEAM = A2252KUR2V; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = "Config/CodexUsagePeek-Info.plist"; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks"; MARKETING_VERSION = 0.1.2; PRODUCT_BUNDLE_IDENTIFIER = com.siqi.codexusagepeek.v2; PRODUCT_NAME = "Codex Usage Peek"; REGISTER_APP_GROUPS = YES; SKIP_INSTALL = NO; SUPPORTED_PLATFORMS = macosx; SWIFT_EMIT_LOC_STRINGS = YES; }; name = Release; };
+		AC0000000000000000000005 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {APPLICATION_EXTENSION_API_ONLY = YES; ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_ENTITLEMENTS = Config/CodexUsageWidget.entitlements; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 6; DEVELOPMENT_TEAM = A2252KUR2V; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = "Config/CodexUsageWidget-Info.plist"; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks"; MARKETING_VERSION = 0.1.2; PRODUCT_BUNDLE_IDENTIFIER = com.siqi.codexusagepeek.v2.widget; PRODUCT_NAME = CodexUsageWidget; REGISTER_APP_GROUPS = YES; SKIP_INSTALL = YES; SUPPORTED_PLATFORMS = macosx; SWIFT_EMIT_LOC_STRINGS = YES; }; name = Debug; };
+		AC0000000000000000000006 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {APPLICATION_EXTENSION_API_ONLY = YES; ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_ENTITLEMENTS = Config/CodexUsageWidget.entitlements; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 6; DEVELOPMENT_TEAM = A2252KUR2V; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = "Config/CodexUsageWidget-Info.plist"; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks"; MARKETING_VERSION = 0.1.2; PRODUCT_BUNDLE_IDENTIFIER = com.siqi.codexusagepeek.v2.widget; PRODUCT_NAME = CodexUsageWidget; REGISTER_APP_GROUPS = YES; SKIP_INSTALL = YES; SUPPORTED_PLATFORMS = macosx; SWIFT_EMIT_LOC_STRINGS = YES; }; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB0000000000000000000001 /* Build configuration list for PBXNativeTarget "CodexUsagePeek" */ = {isa = XCConfigurationList; buildConfigurations = (AC0000000000000000000003 /* Debug */, AC0000000000000000000004 /* Release */, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		AB0000000000000000000002 /* Build configuration list for PBXNativeTarget "CodexUsageWidget" */ = {isa = XCConfigurationList; buildConfigurations = (AC0000000000000000000005 /* Debug */, AC0000000000000000000006 /* Release */, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		AB0000000000000000000003 /* Build configuration list for PBXProject "CodexUsagePeek" */ = {isa = XCConfigurationList; buildConfigurations = (AC0000000000000000000001 /* Debug */, AC0000000000000000000002 /* Release */, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = A40000000000000000000001 /* Project object */;
+}
