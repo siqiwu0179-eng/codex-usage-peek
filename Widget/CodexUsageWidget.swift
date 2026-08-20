@@ -13,7 +13,7 @@ struct UsageTimelineProvider: TimelineProvider {
     func placeholder(in context: Context) -> UsageTimelineEntry {
         UsageTimelineEntry(
             date: Date(),
-            snapshot: UsageSnapshot(
+            snapshot: UsageSnapshotStore.load() ?? UsageSnapshot(
                 remainingPercent: 76,
                 usedPercent: 24,
                 resetAt: Calendar.current.date(byAdding: .day, value: 5, to: Date()),
@@ -32,7 +32,10 @@ struct UsageTimelineProvider: TimelineProvider {
     func getTimeline(in context: Context, completion: @escaping (Timeline<UsageTimelineEntry>) -> Void) {
         let now = Date()
         let entry = UsageTimelineEntry(date: now, snapshot: UsageSnapshotStore.load())
-        let next = Calendar.current.date(byAdding: .minute, value: 30, to: now) ?? now.addingTimeInterval(1_800)
+        // WidgetKit still controls the exact execution time, but a short
+        // fallback prevents an ignored reload request from leaving an old
+        // value on the desktop for half an hour.
+        let next = Calendar.current.date(byAdding: .minute, value: 5, to: now) ?? now.addingTimeInterval(300)
         completion(Timeline(entries: [entry], policy: .after(next)))
     }
 }
@@ -118,7 +121,7 @@ struct CodexUsageWidgetView: View {
 }
 
 struct CodexUsageWidget: Widget {
-    let kind = "CodexUsageWidgetV2"
+    let kind = CodexUsageWidgetIdentity.kind
 
     var body: some WidgetConfiguration {
         StaticConfiguration(kind: kind, provider: UsageTimelineProvider()) { entry in

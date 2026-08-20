@@ -66,7 +66,7 @@ final class UsageStore: ObservableObject {
             snapshot = updated
             errorMessage = nil
             #if canImport(WidgetKit)
-            WidgetCenter.shared.reloadAllTimelines()
+            WidgetCenter.shared.reloadTimelines(ofKind: CodexUsageWidgetIdentity.kind)
             #endif
         } catch {
             errorMessage = error.localizedDescription
